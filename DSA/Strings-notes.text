@@ -1,0 +1,36 @@
+Strings Notes
+
+- String stores text
+- length() gives total size
+- charAt(i) accesses character
+- equals() compares strings
+ 
+ char [] arr= {'b','h','u','m','i'};
+ 
+ Jo chize hum print function ke ander "" mai likhte hai 
+ print karwane ke liye. 
+ Us data ko hum strings ki help se ek container mai 
+ permanently store kar sakte hai 
+
+Input
+-2 ways
+-String s= sc.next();
+-String s= sc.nextLine();
+
+Sc.next()
+-it only takes 1 word as the input 
+- any string which user gives without having any space 
+
+Sc.nextLine()
+-It takes the whole string as input 
+- each and every thing which user have give irresptive of space 
+
+String is nothing but a character array 
+
+To print its position in java
+- System.out.println(t.charAt(4));
+
+To count the length of a string 
+- int n= x.length();
+        System.out.println(n);
+
