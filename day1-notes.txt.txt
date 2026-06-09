@@ -1,0 +1,9 @@
+Day 1 Backend Notes
+
+- Backend handles server-side logic
+- API helps frontend and backend communicate
+- HTTP methods:
+  GET = fetch data
+  POST = send data
+  PUT = update data
+  DELETE = remove data
