@@ -1,0 +1,66 @@
+-It basically connects the server o the database 
+-The server is connected with clinets and with the data base 
+
+Clients-> Server-> Database 
+
+-Clients which is the user gives a request to the server 
+- Then serever reciives the request and fullil the request in the form 
+of response 
+
+Role of Clients
+-It give the request to the server 
+-For giving a request the client which is our computer first 
+need to hit a url 
+- The url then gets the ip address of the clint through DNS 
+
+-DNS- Domain Name System 
+-DNS gets the ipi address of the clinet through the url 
+-DNS is basiclly the path which the request follow from the clinet till the 
+serever
+
+Roles of Server
+-The server recieves the Requesnt and gives all the information 
+which it finds for that particular url 
+
+Thick Clients
+- Sometimes the logic which we can say is the data that the 
+server provides to the client when they request for it 
+is already present on the clinet side 
+
+-This means that the clint does'nt need to put a request for the data 
+they can automatically access it 
+-eg thick clinet is present in video editing softwares 
+
+
+Thin Clients
+-In thin clinet there is no such system of keeping a logic in the clint side 
+-logic is present only on the server side 
+
+
+2-Tier Architechture
+Clinet->Server 
+-Server is connected to the dtabase and the logic 
+- In this case only clinet and a server is having a connection 
+
+
+3-Tier Architechture
+Client->Server->Data 
+
+Clinet layer can be clasified as presentation layer which basically deals with all 
+the ui/ux the look and feel of a software with hich the 
+user interacts 
+
+Server Layer can be clasified as a Application Layer whose work is to read the request
+and the send it to the respected data, if there are multiple databases
+
+-Data layer is simple, ot simply just read the request which is given by the server give that 
+particular data 
+
+N-Tier Architechture
+-In n tier we can add any layers in between the 3 tier Architechture
+
+-We can add a load balancing layer between the clinet and the serever 
+which can handle the requents efficinetly and send it to server if there are multiple 
+requests from the client 
+
+- We can add Caching layer in between the seveer and the data which can helps in filtering out the data 
