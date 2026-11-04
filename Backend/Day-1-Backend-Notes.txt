@@ -1,0 +1,46 @@
+Backend is the server-side part of an application responsible for processing client requests, implementing business logic, managing authentication and interacting with databases
+
+Client kya hota hai?
+Client woh application ya device hai jo server ko request send karta hai.
+Examples:
+- Web browser
+- Mobile application
+- Desktop application
+
+Server kya hota hai?
+Server client ki request receive karta hai, process karta hai aur response return karta hai.
+Example:
+Tum BookMyShow par movies dekhna chahti ho.
+
+Process:
+1. Client request bhejta hai.
+2. Server request receive karta hai.
+3. Server required business logic execute karta hai.
+4. Database se information retrieve hoti hai.
+5. Server response return karta hai.
+6. Client result display karta hai.
+Isko request-response cycle kehte hain.
+
+What happens when a user sends a request to a backend server?
+Answer: The server receives the request, processes it using the application logic, interacts with the database if required, and returns an appropriate response to the client.
+
+Application Programming Interface
+Simple language mein, API ek communication interface hai jiske through two software applications ek doosre ke saath communicate kar sakti hain.
+
+HTTP Methods
+Get->HTTP Methods
+Post->New data create karna
+Put->Existing data update karna
+Delete->Data delete karna 
+
+Spring Framework Java-based framework hai jo enterprise applications develop karne ke liye infrastructure provide karta hai.
+
+Spring Boot Spring Framework ke upar built hai. Ye configuration aur application setup ko significantly simplify karta hai.
+
+Spring Boot ke important concepts:
+IoC                   ->  Objects ka control Spring container manage karta hai
+Dependency Injection  ->  Required objects automatically provide karna
+Bean                  ->  Spring container ke dwara managed object
+Auto Configuration    ->  Required configurations automatically set karna
+Starter Dependencies  ->  Related libraries ka convenient bundle
+
