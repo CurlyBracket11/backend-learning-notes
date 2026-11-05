@@ -28,7 +28,7 @@ Application Programming Interface
 Simple language mein, API ek communication interface hai jiske through two software applications ek doosre ke saath communicate kar sakti hain.
 
 HTTP Methods
-Get->HTTP Methods
+Get->Existing data retrieve karna.
 Post->New data create karna
 Put->Existing data update karna
 Delete->Data delete karna 
@@ -43,4 +43,41 @@ Dependency Injection  ->  Required objects automatically provide karna
 Bean                  ->  Spring container ke dwara managed object
 Auto Configuration    ->  Required configurations automatically set karna
 Starter Dependencies  ->  Related libraries ka convenient bundle
+
+
+Spring Framework ek Java framework hai jo application ke objects, dependencies aur configurations manage karne ke liye infrastructure provide karta hai
+->Inversion of Control
+Normally tum decide karti ho ki object kab aur kaise create hoga.
+Spring mein ye control Spring Container ko de diya jata hai.
+Matlab objects create aur manage karne ki responsibility framework handle karta hai.
+
+->Dependency Injection 
+Suppose UserController ko UserService ki functionality chahiye.
+Instead of manually creating a UserService object, Spring required object provide kar sakta hai.
+
+->Bean
+Spring Container jis object ko create aur manage karta hai, use Bean kehte hain.
+
+->Spring Container
+Ye Spring Framework ka central component hai jo Beans create karta hai, unki dependencies manage karta hai aur unka lifecycle handle karta hai.
+
+
+Spring Boot kya hai?
+Spring Framework powerful hai, lekin usmein application configure karne ke liye kaafi configuration karni pad sakti hai.
+
+For example:
+- Dependencies configure karna.
+- Server setup karna.
+- Database configuration karna.
+- Application start karna.
+- Different components configure karna.
+Spring Boot in cheezon ko considerably simplify karta hai.
+
+Spring Boot, Spring Framework ke upar built hai aur minimum manual configuration ke saath production-ready applications develop karne mein help karta hai
+
+Spring Boot ke important features:
+Auto Configuration	->Dependencies aur settings ke basis par configuration provide karta hai.
+Starter Dependencies	->Related libraries ko convenient bundle mein provide karta hai.
+Embedded Server	        ->Tomcat jaise server ko application ke saath run karne deta hai.
+pring Boot Starter	->Project setup ko simplify karta hai.
 
